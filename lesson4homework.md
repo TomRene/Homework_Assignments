@@ -9,6 +9,14 @@
   
 2. How many orders are there in the file?
   1. There are 4623 rows in the file so figuring 4622 orders (to account for the header row
-  2. using the wc -l chipotle.tsv command line prompt
+  2. I used the wc -l chipotle.tsv command line prompt
 
+3. How many lines are there in the file?  4623.
+
+4. Which burrito is more popular - Steak or Chicken?
+  1. Chicken is more popular at a 553 count versus 368 for Steak burritos
+  2. I used the grep -c "Steak Burrito" chipotle.tsv command
+
+5.  
+  
 
