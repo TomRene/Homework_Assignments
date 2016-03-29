@@ -17,6 +17,13 @@
   1. Chicken is more popular at a 553 count versus 368 for Steak burritos
   2. I used the grep -c "Steak Burrito" chipotle.tsv command
 
-5.  
+5.  Do chicken burritos more often have black beans or pinto beans?
+  1. Using grep "Chicken Burrito" chipotle.tsv | grep -c "Pinto Beans" returns 105
+  2. Using grep "Chicken Burrito" chipotle.tsv | grep -c "Black Beans" returnss 282
+  3. ...so I'd have to say Black Beans is the answer.
+
+6. 
+  
+  
   
 
