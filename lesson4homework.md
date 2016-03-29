@@ -22,7 +22,17 @@
   2. Using grep "Chicken Burrito" chipotle.tsv | grep -c "Black Beans" returnss 282
   3. ...so I'd have to say Black Beans is the answer.
 
-6. 
+6. Make a list of all of the CSV or TSV files in the GA-SEA-DAT2 repo
+  1. I've returned these and seen them but prefer to count them using the following command while in the GA-SEA-DAT2 directory locally...
+  2. find . -name *.ipynb | grep -c ".ipynb" returns 36
+  3. find . -name *.txt | grep -c ".txt" returns 2
+  4. find . -name *.py | grep -c ".py" returns 28
+  5. find . -name *.csv | grep -c ".csv" returns 22
+  6. find . -name *.tsv | grep -c ".tsv" returns 2
+  7. find . -name *.md | grep -c ".md" returns 4
+
+7. 
+
   
   
   
