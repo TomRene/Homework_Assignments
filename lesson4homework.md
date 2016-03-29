@@ -31,7 +31,13 @@
   6. find . -name *.tsv | grep -c ".tsv" returns 2
   7. find . -name *.md | grep -c ".md" returns 4
 
-7. 
+7. Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files in the GA-SEA-DAT repo.
+  1. Using grep -r "dictionary" . | grep -c "dictionary" returns 81.
+  2. Using grep -r "dictionary" . | grep -c "dictionary\|Dictionary" which apparently incorporates an OR condition also returns 81.
+
+  
+
+
 
   
   
